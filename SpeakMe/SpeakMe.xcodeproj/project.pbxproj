@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A72DB1671A7A86790071FC42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DB1661A7A86790071FC42 /* AppDelegate.swift */; };
+		A72DB16A1A7A86790071FC42 /* SpeakMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A72DB1681A7A86790071FC42 /* SpeakMe.xcdatamodeld */; };
+		A72DB16C1A7A86790071FC42 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DB16B1A7A86790071FC42 /* RecordSoundViewController.swift */; };
+		A72DB16F1A7A86790071FC42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72DB16D1A7A86790071FC42 /* Main.storyboard */; };
+		A72DB1711A7A86790071FC42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72DB1701A7A86790071FC42 /* Images.xcassets */; };
+		A72DB1741A7A86790071FC42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A72DB1721A7A86790071FC42 /* LaunchScreen.xib */; };
+		A72DB1801A7A86790071FC42 /* SpeakMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DB17F1A7A86790071FC42 /* SpeakMeTests.swift */; };
+		A7BDB8211A7AAF1100821398 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDB8201A7AAF1100821398 /* PlaySoundViewController.swift */; };
+		A7BDB8231A7AB56100821398 /* cuento.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7BDB8221A7AB56100821398 /* cuento.mp3 */; };
+		A7BDB8251A7AE76900821398 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDB8241A7AE76900821398 /* RecordedAudio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A72DB17A1A7A86790071FC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72DB1591A7A86790071FC42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72DB1601A7A86790071FC42;
+			remoteInfo = SpeakMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A72DB1611A7A86790071FC42 /* SpeakMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72DB1651A7A86790071FC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72DB1661A7A86790071FC42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A72DB1691A7A86790071FC42 /* SpeakMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpeakMe.xcdatamodel; sourceTree = "<group>"; };
+		A72DB16B1A7A86790071FC42 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
+		A72DB16E1A7A86790071FC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A72DB1701A7A86790071FC42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A72DB1731A7A86790071FC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A72DB1791A7A86790071FC42 /* SpeakMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72DB17E1A7A86790071FC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72DB17F1A7A86790071FC42 /* SpeakMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakMeTests.swift; sourceTree = "<group>"; };
+		A7BDB8201A7AAF1100821398 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		A7BDB8221A7AB56100821398 /* cuento.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cuento.mp3; path = ../cuento.mp3; sourceTree = "<group>"; };
+		A7BDB8241A7AE76900821398 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A72DB15E1A7A86790071FC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72DB1761A7A86790071FC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72DB1581A7A86790071FC42 = {
+			isa = PBXGroup;
+			children = (
+				A72DB1631A7A86790071FC42 /* SpeakMe */,
+				A72DB17C1A7A86790071FC42 /* SpeakMeTests */,
+				A72DB1621A7A86790071FC42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A72DB1621A7A86790071FC42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A72DB1611A7A86790071FC42 /* SpeakMe.app */,
+				A72DB1791A7A86790071FC42 /* SpeakMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A72DB1631A7A86790071FC42 /* SpeakMe */ = {
+			isa = PBXGroup;
+			children = (
+				A72DB1661A7A86790071FC42 /* AppDelegate.swift */,
+				A72DB16B1A7A86790071FC42 /* RecordSoundViewController.swift */,
+				A72DB16D1A7A86790071FC42 /* Main.storyboard */,
+				A7BDB8201A7AAF1100821398 /* PlaySoundViewController.swift */,
+				A72DB1701A7A86790071FC42 /* Images.xcassets */,
+				A72DB1721A7A86790071FC42 /* LaunchScreen.xib */,
+				A72DB1681A7A86790071FC42 /* SpeakMe.xcdatamodeld */,
+				A72DB1641A7A86790071FC42 /* Supporting Files */,
+				A7BDB8241A7AE76900821398 /* RecordedAudio.swift */,
+			);
+			path = SpeakMe;
+			sourceTree = "<group>";
+		};
+		A72DB1641A7A86790071FC42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7BDB8221A7AB56100821398 /* cuento.mp3 */,
+				A72DB1651A7A86790071FC42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A72DB17C1A7A86790071FC42 /* SpeakMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A72DB17F1A7A86790071FC42 /* SpeakMeTests.swift */,
+				A72DB17D1A7A86790071FC42 /* Supporting Files */,
+			);
+			path = SpeakMeTests;
+			sourceTree = "<group>";
+		};
+		A72DB17D1A7A86790071FC42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A72DB17E1A7A86790071FC42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A72DB1601A7A86790071FC42 /* SpeakMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72DB1831A7A86790071FC42 /* Build configuration list for PBXNativeTarget "SpeakMe" */;
+			buildPhases = (
+				A72DB15D1A7A86790071FC42 /* Sources */,
+				A72DB15E1A7A86790071FC42 /* Frameworks */,
+				A72DB15F1A7A86790071FC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakMe;
+			productName = SpeakMe;
+			productReference = A72DB1611A7A86790071FC42 /* SpeakMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A72DB1781A7A86790071FC42 /* SpeakMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72DB1861A7A86790071FC42 /* Build configuration list for PBXNativeTarget "SpeakMeTests" */;
+			buildPhases = (
+				A72DB1751A7A86790071FC42 /* Sources */,
+				A72DB1761A7A86790071FC42 /* Frameworks */,
+				A72DB1771A7A86790071FC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72DB17B1A7A86790071FC42 /* PBXTargetDependency */,
+			);
+			name = SpeakMeTests;
+			productName = SpeakMeTests;
+			productReference = A72DB1791A7A86790071FC42 /* SpeakMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A72DB1591A7A86790071FC42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yosemite;
+				TargetAttributes = {
+					A72DB1601A7A86790071FC42 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A72DB1781A7A86790071FC42 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A72DB1601A7A86790071FC42;
+					};
+				};
+			};
+			buildConfigurationList = A72DB15C1A7A86790071FC42 /* Build configuration list for PBXProject "SpeakMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A72DB1581A7A86790071FC42;
+			productRefGroup = A72DB1621A7A86790071FC42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A72DB1601A7A86790071FC42 /* SpeakMe */,
+				A72DB1781A7A86790071FC42 /* SpeakMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A72DB15F1A7A86790071FC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72DB16F1A7A86790071FC42 /* Main.storyboard in Resources */,
+				A72DB1741A7A86790071FC42 /* LaunchScreen.xib in Resources */,
+				A7BDB8231A7AB56100821398 /* cuento.mp3 in Resources */,
+				A72DB1711A7A86790071FC42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72DB1771A7A86790071FC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A72DB15D1A7A86790071FC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72DB16C1A7A86790071FC42 /* RecordSoundViewController.swift in Sources */,
+				A72DB16A1A7A86790071FC42 /* SpeakMe.xcdatamodeld in Sources */,
+				A7BDB8211A7AAF1100821398 /* PlaySoundViewController.swift in Sources */,
+				A72DB1671A7A86790071FC42 /* AppDelegate.swift in Sources */,
+				A7BDB8251A7AE76900821398 /* RecordedAudio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72DB1751A7A86790071FC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72DB1801A7A86790071FC42 /* SpeakMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A72DB17B1A7A86790071FC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A72DB1601A7A86790071FC42 /* SpeakMe */;
+			targetProxy = A72DB17A1A7A86790071FC42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A72DB16D1A7A86790071FC42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72DB16E1A7A86790071FC42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A72DB1721A7A86790071FC42 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72DB1731A7A86790071FC42 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A72DB1811A7A86790071FC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A72DB1821A7A86790071FC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A72DB1841A7A86790071FC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeakMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A72DB1851A7A86790071FC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeakMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A72DB1871A7A86790071FC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeakMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakMe.app/SpeakMe";
+			};
+			name = Debug;
+		};
+		A72DB1881A7A86790071FC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeakMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakMe.app/SpeakMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A72DB15C1A7A86790071FC42 /* Build configuration list for PBXProject "SpeakMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72DB1811A7A86790071FC42 /* Debug */,
+				A72DB1821A7A86790071FC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72DB1831A7A86790071FC42 /* Build configuration list for PBXNativeTarget "SpeakMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72DB1841A7A86790071FC42 /* Debug */,
+				A72DB1851A7A86790071FC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72DB1861A7A86790071FC42 /* Build configuration list for PBXNativeTarget "SpeakMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72DB1871A7A86790071FC42 /* Debug */,
+				A72DB1881A7A86790071FC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A72DB1681A7A86790071FC42 /* SpeakMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A72DB1691A7A86790071FC42 /* SpeakMe.xcdatamodel */,
+			);
+			currentVersion = A72DB1691A7A86790071FC42 /* SpeakMe.xcdatamodel */;
+			path = SpeakMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A72DB1591A7A86790071FC42 /* Project object */;
+}
